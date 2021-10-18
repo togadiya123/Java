@@ -2,7 +2,7 @@ class armstrong
 {
    public static void main(String args[])
    {
-        int a=371,temp,r,result=0;
+        int a=153,temp,r,result=0;
         temp=a;
        while(a!=0)
        {

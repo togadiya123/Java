@@ -6,7 +6,7 @@ import java.util.Scanner;
     {
             int a,i,fact=1;
             Scanner scan=new Scanner(System.in);
-            System.out.println("Enter  number");
+            System.out.print("Enter the number : ");
             a=scan.nextInt();
            
             for(i=1;i<=a;i++)

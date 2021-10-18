@@ -6,12 +6,12 @@ import java.util.Scanner;
     {
             int a,i,j;
             Scanner scan=new Scanner(System.in);
-            System.out.println("Enter  number");
+            System.out.print("Enter The Number : ");
             a=scan.nextInt();
             for(i=1;i<=10;i++)
            {
                    j=a*i;
-                   System.out.println(a+" * "+i+" =  "+j ); 
+                   System.out.println(a+" * "+i+" =  "+j );
           }
       
 

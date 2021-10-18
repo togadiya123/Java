@@ -6,9 +6,10 @@ import java.util.Scanner;
     {
             int a,b,big;
             Scanner scan=new Scanner(System.in);
-            System.out.println("Enter 2 numbers ");
+            System.out.print("Enter First Number : ");
             a=scan.nextInt();
-             b=scan.nextInt();
+            System.out.print("Enter Second Number : ");
+            b=scan.nextInt();
 
             if(a>b)
             {
@@ -18,6 +19,6 @@ import java.util.Scanner;
             {
                       big=b;
              }
-             System.out.println(big +" no is maximum");
+             System.out.println(big +" Number is bigger than Another Number");
     }
 }

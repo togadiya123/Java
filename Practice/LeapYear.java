@@ -6,7 +6,7 @@ import java.util.Scanner;
     {
             int y;
             Scanner scan=new Scanner(System.in);
-            System.out.println("Enter  a year");
+            System.out.print("Enter  a year : ");
             y=scan.nextInt();
            
           if(y%4==0)
