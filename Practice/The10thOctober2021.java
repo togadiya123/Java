@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class The10thOctober2021{
 
-    public static void main(String args[]){
+    public static void main(String[] args){
         System.out.print("Enter the number for ");
         Base base = new Base();
         System.out.print(base.a);
